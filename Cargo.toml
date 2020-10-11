@@ -7,7 +7,7 @@ categories = ["api-bindings", "web-programming::http-client"]
 authors = ["Michael Flaherty <michaelwflaherty@me.com>"]
 readme = "README.md"
 edition = "2018"
-license = "LICENSE-LGPL3"
+license = "LGPL-3.0"
 license-file = "LICENSE.txt"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
