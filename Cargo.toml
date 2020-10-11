@@ -1,7 +1,11 @@
 [package]
 name = "wandbox"
 version = "0.1.0"
+description = "An api binding for Wandbox"
+keywords = ["Wandbox"]
+categories = ["api-bindings", "web-programming::http-client"]
 authors = ["Michael Flaherty <michaelwflaherty@me.com>"]
+readme = "README.md"
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
