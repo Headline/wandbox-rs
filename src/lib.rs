@@ -205,7 +205,7 @@ impl fmt::Debug for Compiler {
 pub struct CompilationBuilder {
     #[serde(skip)]
     target : String,
-    lang : String,
+    pub lang : String,
     compiler : String,
     code : String,
     stdin : String,
