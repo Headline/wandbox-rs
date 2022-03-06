@@ -157,7 +157,6 @@ pub struct Compiler {
     pub version : String,
     pub language : String,
     pub name : String,
-    pub provider : i32,
 }
 impl Clone for Compiler {
     fn clone(&self) -> Self {
@@ -168,13 +167,12 @@ impl Clone for Compiler {
             version : self.version.clone(),
             language : self.language.clone(),
             name : self.name.clone(),
-            provider : self.provider,
         }
     }
 }
 impl fmt::Debug for Compiler {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-        write!(f, "[{} {}] {}: {}", self.name, self.version, self.provider, self.language)
+        write!(f, "[{} {}] : {}", self.name, self.version, self.language)
     }
 }
 
