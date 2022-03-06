@@ -1,6 +1,6 @@
 [package]
 name = "wandbox"
-version = "0.1.1"
+version = "0.1.2"
 description = "An api binding for Wandbox"
 keywords = ["Wandbox"]
 categories = ["api-bindings", "web-programming::http-client"]
